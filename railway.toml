@@ -1,5 +1,5 @@
 [build]
-command = "pip install -r requirements.txt && playwright install chromium"
+command = "pip install -r requirements.txt"
 
 [start]
-command = "python telegram_testuz_bot.py"
+command = "python -c \"print('SERVICE STARTED')\""
