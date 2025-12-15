@@ -23,7 +23,7 @@ from PIL import Image as PILImage
 # =========================
 # CONFIG (RAILWAY SAFE)
 # =========================
-BOT_TOKEN = os.environ.get("8315973767:AAG8xhnY1d-3J1wR62K5cmceZbyG2I6vLS0")
+BOT_TOKEN = os.environ.get("BOT_TOKEN")
 OUTPUT_DIR = "output"
 MIN_WIDTH = 200
 MIN_HEIGHT = 200
@@ -221,3 +221,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
